@@ -1,0 +1,20 @@
+!*xterm*font: 10x20
+
+!*xterm*scrollbar: true
+!*xterm*background: black
+!*xterm*foreground: gray
+!*xterm*font: -*-fixed-*-*-*-*-20-*-*-*-*-*-iso10646-*
+
+!*xterm*waitForMap: true
+!*xterm*borderWidth: 3
+!*xterm*internalBorder: 0
+
+URxvt.font:     xft:bitstream vera sans mono:size=13:antialias=true
+URxvt.boldFont: xft:bitstream vera sans mono:bold:size=13:antialias=true
+!URxvt*font: -*-fixed-*-*-*-*-20-*-*-*-*-*-iso10646-*
+URxvt*background: black
+URxvt*foreground: gray
+URxvt*scrollBar: false
+URxvt*scrollWithBuffer: true
+
+!!!
