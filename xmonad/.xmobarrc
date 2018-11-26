@@ -1,0 +1,12 @@
+Config { font = "-*-Fixed-Bold-R-Normal-*-15-*-*-*-*-*-*-*"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = Bottom
+       , commands = [ Run Date "%A %_d %b %H:%M" "date" 100
+		    , Run Com "sysctl" ["-n", "hw.acpi.battery.life" ] "bat" 1800
+                    , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader% }{ %bat% | <fc=#ee9a00>%date%</fc>"
+       }
