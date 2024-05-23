@@ -1,0 +1,8 @@
+KERL_CONFIGURE_OPTIONS="--with-ssl=/usr/local/pkg --without-odbc --without-snmp"
+#KERL_CONFIGURE_OPTIONS="--with-ssl=/usr/local/pkg/OpenSSL_1_1_1w --without-odbc --without-snmp"
+KERL_CONFIGURE_DISABLE_APPLICATIONS="odbc snmp"
+
+#KERL_CONFIGURE_OPTIONS="--with-ssl=/usr/local/pkg --without-odbc --with-wxdir=/usr/local/pkg/wx314"
+#KERL_CONFIGURE_OPTIONS="--disable-hipe --without-snmp"
+export CFLAGS="-O2 -g"
+
